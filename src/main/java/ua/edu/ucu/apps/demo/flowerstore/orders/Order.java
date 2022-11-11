@@ -11,12 +11,12 @@ public class Order {
     private Payment payment;
     private Delivery delivery;
 
-    public void setPaymentStrategy(Payment payment_) {
-        this.payment = payment_;
+    public void setPaymentStrategy(Payment paymentType) {
+        this.payment = paymentType;
     }
 
-    public void setDeliveryStrategy(Delivery delivery_) {
-        this.delivery = delivery_;
+    public void setDeliveryStrategy(Delivery deliveryType) {
+        this.delivery = deliveryType;
     }
 
     public double calculateTotalPrice() {

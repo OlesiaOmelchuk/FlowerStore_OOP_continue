@@ -12,9 +12,9 @@ public class FlowerController {
 
     @GetMapping
     public List<Flower> getFlowers() {
-        final int length = 4, price = 10;
+        final int LENGTH = 4, PRICE = 10;
         return List.of(
-                new Flower(length, FlowerColor.RED, price, FlowerType.ROSE),
-                new Flower(length, FlowerColor.BLUE, price, FlowerType.TULIP));
+                new Flower(LENGTH, FlowerColor.RED, PRICE, FlowerType.ROSE),
+                new Flower(LENGTH, FlowerColor.BLUE, PRICE, FlowerType.TULIP));
     }
 }
