@@ -8,7 +8,7 @@ public class FlowerBucket extends Item{
     @Getter
     private ArrayList<FlowerPack> packList = new ArrayList<FlowerPack>();
     private double price;
-    FlowerBucket() {
+    public FlowerBucket() {
         price = 0;
     }
     public void addFlowers(FlowerPack pack) {

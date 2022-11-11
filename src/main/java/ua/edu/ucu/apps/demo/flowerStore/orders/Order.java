@@ -28,7 +28,7 @@ public class Order {
     }
 
     public void processOrder(){
-        System.out.println("Processing order");
+        System.out.println("Processing order...");
     }
 
     public void addItem(Item item){
