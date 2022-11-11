@@ -12,9 +12,9 @@ public class FlowerController {
 
     @GetMapping
     public List<Flower> getFlowers() {
-        int forLinter = 0;      //linter doesn't like magic numbers :+(
+        int length = 4, price = 10;
         return List.of(
-                new Flower(forLinter+5, FlowerColor.RED, forLinter+10, FlowerType.ROSE),
-                new Flower(forLinter+4, FlowerColor.BLUE, forLinter+40, FlowerType.TULIP));
+                new Flower(length, FlowerColor.RED, price, FlowerType.ROSE),
+                new Flower(length, FlowerColor.BLUE, price, FlowerType.TULIP));
     }
 }

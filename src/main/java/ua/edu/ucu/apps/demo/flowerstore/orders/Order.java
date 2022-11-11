@@ -29,6 +29,8 @@ public class Order {
 
     public void processOrder() {
         System.out.println("Processing order...");
+        System.out.println("Type of delivery: " + delivery.getClass());
+        System.out.println("Type of payment: " + payment.getClass());
     }
 
     public void addItem(Item item) {
