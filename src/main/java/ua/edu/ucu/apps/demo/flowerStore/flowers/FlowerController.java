@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RequestMapping(path = "/api/v1/flower")
 @RestController
+@RequestMapping(path = "/api/v1/flower")
 public class FlowerController {
 
     @GetMapping

@@ -20,10 +20,8 @@ public class DemoApplication {
 	}
 
 	@GetMapping
-	public List<Flower> getFlowers(){
-		return List.of(
-				new Flower(5, FlowerColor.RED, 10, FlowerType.ROSE),
-				new Flower(4,FlowerColor.BLUE, 40, FlowerType.TULIP));
+	public String say_hello(){
+		return "hello";
 	}
 
 }

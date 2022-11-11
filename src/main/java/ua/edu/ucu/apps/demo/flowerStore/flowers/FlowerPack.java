@@ -2,7 +2,7 @@ package ua.edu.ucu.apps.demo.flowerStore.flowers;
 
 import lombok.Getter;
 
-public class FlowerPack {
+public class FlowerPack extends Item{
     @Getter
     private Flower flower;
     private int quantity;
@@ -10,7 +10,7 @@ public class FlowerPack {
         this.flower = flower;
         this.quantity = quantity;
     }
-    public double getPrice() {
-        return flower.getPrice() * quantity;
+    public double price() {
+        return flower.price() * quantity;
     }
 }
