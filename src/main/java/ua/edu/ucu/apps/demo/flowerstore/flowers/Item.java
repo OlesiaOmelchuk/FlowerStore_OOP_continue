@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.demo.flowerStore.flowers;
+package ua.edu.ucu.apps.demo.flowerstore.flowers;
 
 public abstract class Item {
     private String description;
@@ -6,5 +6,6 @@ public abstract class Item {
     public String getDescription() {
         return description;
     }
+
     public abstract double price();
 }

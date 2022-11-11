@@ -1,4 +1,4 @@
-package ua.edu.ucu.apps.demo.flowerStore.payments;
+package ua.edu.ucu.apps.demo.flowerstore.payments;
 
 public interface Payment {
     boolean pay(double price);

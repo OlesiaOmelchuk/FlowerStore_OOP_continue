@@ -1,12 +1,12 @@
-package ua.edu.ucu.apps.demo.flowerStore;
+package ua.edu.ucu.apps.demo.flowerstore;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
-import ua.edu.ucu.apps.demo.flowerStore.flowers.Flower;
-import ua.edu.ucu.apps.demo.flowerStore.flowers.FlowerBucket;
-import ua.edu.ucu.apps.demo.flowerStore.flowers.FlowerPack;
-import ua.edu.ucu.apps.demo.flowerStore.flowers.Rose;
+import ua.edu.ucu.apps.demo.flowerstore.flowers.Flower;
+import ua.edu.ucu.apps.demo.flowerstore.flowers.FlowerBucket;
+import ua.edu.ucu.apps.demo.flowerstore.flowers.FlowerPack;
+import ua.edu.ucu.apps.demo.flowerstore.flowers.Rose;
 
 import java.util.Random;
 

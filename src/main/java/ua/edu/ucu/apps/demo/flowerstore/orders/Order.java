@@ -1,8 +1,8 @@
-package ua.edu.ucu.apps.demo.flowerStore.orders;
+package ua.edu.ucu.apps.demo.flowerstore.orders;
 
-import ua.edu.ucu.apps.demo.flowerStore.delivery.Delivery;
-import ua.edu.ucu.apps.demo.flowerStore.flowers.Item;
-import ua.edu.ucu.apps.demo.flowerStore.payments.Payment;
+import ua.edu.ucu.apps.demo.flowerstore.delivery.Delivery;
+import ua.edu.ucu.apps.demo.flowerstore.flowers.Item;
+import ua.edu.ucu.apps.demo.flowerstore.payments.Payment;
 
 import java.util.LinkedList;
 
@@ -19,23 +19,23 @@ public class Order {
         this.delivery = delivery;
     }
 
-    public double calculateTotalPrice(){
+    public double calculateTotalPrice() {
         double price = 0;
-        for(Item item: items){
+        for (Item item : items) {
             price += item.price();
         }
         return price;
     }
 
-    public void processOrder(){
+    public void processOrder() {
         System.out.println("Processing order...");
     }
 
-    public void addItem(Item item){
+    public void addItem(Item item) {
         items.add(item);
     }
 
-    public void removeItem(Item item){
+    public void removeItem(Item item) {
         items.remove(item);
     }
 }

@@ -1,6 +1,6 @@
-package ua.edu.ucu.apps.demo.flowerStore.payments;
+package ua.edu.ucu.apps.demo.flowerstore.payments;
 
-public class CreditCardPaymentStrategy implements Payment{
+public class CreditCardPaymentStrategy implements Payment {
 
     @Override
     public boolean pay(double price) {

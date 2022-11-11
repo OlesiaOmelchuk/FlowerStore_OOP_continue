@@ -1,6 +1,6 @@
-package ua.edu.ucu.apps.demo.flowerStore.payments;
+package ua.edu.ucu.apps.demo.flowerstore.payments;
 
-public class PayPalPaymentStrategy implements Payment{
+public class PayPalPaymentStrategy implements Payment {
     @Override
     public boolean pay(double price) {
         System.out.println("Payment with PayPal: ...");
